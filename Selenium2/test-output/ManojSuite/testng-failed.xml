@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ManojSuite]">
+  <test name="Selenium Test(failed)">
+    <classes>
+      <class name="testngtests2.Firefoxbrowsertest2">
+        <methods>
+          <include name="gmailTest"/>
+        </methods>
+      </class> <!-- testngtests2.Firefoxbrowsertest2 -->
+      <class name="testngtests2.AnnotationsTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testngtests2.AnnotationsTest -->
+      <class name="testngtests2.BeforeTestandfterTest">
+        <methods>
+          <include name="appLaunch"/>
+          <include name="appClose"/>
+          <include name="appLogin"/>
+        </methods>
+      </class> <!-- testngtests2.BeforeTestandfterTest -->
+    </classes>
+  </test> <!-- Selenium Test(failed) -->
+</suite> <!-- Failed suite [ManojSuite] -->
